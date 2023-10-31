@@ -12,25 +12,16 @@ const Home = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./images/caro-coffee3.jpeg"  className=" d-block w-100" alt="..."/>
-      <div className="carousel-caption  d-md-block">
-      <h1 className='display-3 text-white'>Coffee Time</h1>
-      </div>
+      <img src="car1.jpeg"  className=" d-block w-100" alt="..."/>
+     
     </div>
     <div className="carousel-item">
-      <img src="./images/caro-coffee2.jpeg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption  d-md-block">
-        <h1 className='display-3 text-white'>Delicious Coffee</h1>
-        
-      </div>
+      <img src="car2.jpeg" className="d-block w-100" alt="..."/>
+      
     </div>
     <div className="carousel-item">
-      <img src="./images/caro-coffee1.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-flex flex-column align-items-center justify-content-center mb-3">
-        <h2 className='text-warning font-weight-medium m-0'>We have been Serving</h2>
-        <h1 className='display-3 text-white m-0'>Coffee</h1>
-        <h2 className='display-4 text-white m-0'>Since 2000</h2>
-      </div>
+      <img src="car3.jpg" className="d-block w-100" alt="..."/>
+      
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
