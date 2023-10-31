@@ -1,0 +1,16 @@
+.carousel-item{
+    height: 500px;
+  }
+  
+  .carousel-item img{
+   
+    object-fit:cover;
+    height: 100%;
+    filter: brightness(0.6);
+    
+  }
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
